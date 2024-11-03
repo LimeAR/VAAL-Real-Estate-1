@@ -32,5 +32,31 @@ session.play('capture');
 
 await session.applyLens(lens);
 
+// let min = 0;
+// let max = 2;
+// let current = min;
+// let direction = 1; // 1 for forward, -1 for backward
+
+
+// function pingPongLoop() {
+            
+
+//             // Update the current value based on the direction
+//             current += direction;
+
+//             // Reverse direction if we’ve reached either limit
+//             if (current === max || current === min) {
+//                 direction *= -1;
+//             }
+//         }
+
+// function onTouchStart(eventData) {
+//     global.sceneManager.loadSceneAsync(`${current}`, { additive: false });
+//     pingPongLoop();
+//     print(current);
+// }
+
+// var tapEvent = script.createEvent("TouchStartEvent");
+// tapEvent.bind(onTouchStart);
 
 })();
